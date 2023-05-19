@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CIRCUNFERENCIA</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="texto1">
+            <h1>CIRCUNFERENCIA</h1>
+        </div>
+        <div class="perimetro">
+            <p>PERÍMETRO. Definición</p>
+            <p>Contorno de una superficie.</p>
+        </div>
+        <div class="superficie">
+            <p>SUPERFICIE. Definición</p>
+            <p>Magnitud que expresa la extensión de un cuerpo en dos dimensiones, longitud y anchura.</p>
+        </div>
+
+        <div class="formulario">
+            <p>Ingresar el radio de la circunferencia:</p>
+            <input type="number" id="valor_ingresado" autofocus><br>
+            <button id="btn_calcular">Calcular</button>
+        </div>
+
+        <div id="error">
+            <p>El radio debe ser mayor a cero !</p>
+            <button id="btn-reintentar">Reintentar</button>
+        </div>
+
+        <div id="cuadro">
+            <h2>RESULTADOS</h2>
+            <p>Perímetro</p>
+            <P id="perim"></P>
+            <p>Área</p>
+            <p id="area"></p>
+            <button onclick="borrar()">Borrar</button>
+        </div>
+
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
